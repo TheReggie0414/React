@@ -1,5 +1,4 @@
 import React from 'react';
-import { ComponentButton } from "./components/Button";
 import { Timer } from "./components/Timer";
 import { GeolocationExample } from './components/Location';
 export const Home = () => {
@@ -9,9 +8,9 @@ export const Home = () => {
             <Timer />
             <h1>Fetch</h1>
             <GeolocationExample />
-      </div>
+        </div>
 
-       
+
     );
 };
 
