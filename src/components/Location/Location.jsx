@@ -30,6 +30,7 @@ export const GeolocationExample = () => {
         </div>
     );
 
+
 };
 
 export default GeolocationExample;

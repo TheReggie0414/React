@@ -19,4 +19,5 @@ export const Timer = () => {
             <h1>Timer: {seconds} seconds</h1>
         </div>
     );
+
 };
