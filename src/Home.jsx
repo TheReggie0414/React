@@ -3,6 +3,7 @@ import { Timer } from "./components/Timer";
 import { GeolocationExample } from './components/Location';
 import { Memo } from './components/Memo/'
 import { Table } from './components/table'
+import { MyForm } from './components/formik'
 export const Home = () => {
     return (
         <div>
@@ -12,6 +13,7 @@ export const Home = () => {
             <GeolocationExample />
             <Memo />
             <Table />
+            <MyForm />
         </div>
 
 
