@@ -1,1 +1,0 @@
-export { mainIndex } from "./mainIndex";

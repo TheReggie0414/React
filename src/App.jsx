@@ -1,9 +1,18 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import "./App.css";
+import { Header } from "./components/Header";
+import { Login } from "./components/Login";
+import { Posts } from './components/Posts';
+import UserContext from './UserContext';
 export const App = () => {
-    const result = div(4, 2);
-    const sum = add(2, 2);
+    const [user, setUser] = useState(null);
 
-    useState();
-
+    return (
+        <UserContext.Provider value={{ user, setUser }}>
+            <Header />
+            <Login />
+            <Posts />
+        </UserContext.Provider>
+    );
 };
+

@@ -1,1 +1,0 @@
-export { GeolocationExample } from "./Location";
