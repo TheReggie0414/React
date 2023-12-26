@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
 import "./App.css";
-import { Header } from "./components/Header";
-import { Login } from "./components/Login";
-import { Posts } from './components/Posts';
-import UserContext from './UserContext';
-export const App = () => {
-    const [user, setUser] = useState(null);
+import React from 'react';
+import MyForm from './components/MyForm';
 
+export const App = () => {
     return (
-        <UserContext.Provider value={{ user, setUser }}>
-            <Header />
-            <Login />
-            <Posts />
-        </UserContext.Provider>
+        <div>
+            <h1>My Form</h1>
+            <MyForm />
+        </div>
     );
 };
 
+export default App;
